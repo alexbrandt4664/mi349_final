@@ -1,14 +1,15 @@
 body {
     background-color: #fcdba9;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
 }
 
 nav {
     display: flex;
     border-radius: 10px;
     background: white;
-    width: fit-content;
     margin: auto;
+    justify-content: center;
 }
 
 nav > a {
@@ -19,10 +20,6 @@ nav a:hover {
     background-color: #c4c4c4;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-#home_link:hover {
-    border-radius: 10px 0 0 10px;
 }
 
 #create_box {
@@ -136,4 +133,136 @@ h1 {
     display: contents;
     width: fit-content;
     height: 50px;
+}
+
+#tagline {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+#store_box {
+    height: 335px;
+}
+
+.box {
+    background-color: #c4c4c4;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#store_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.item_box {
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+    width: 240px;
+    margin: 25px 50px 0 50px;
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 21px;
+}
+
+h4 ~ p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.store_image {
+    position:relative;
+    height: 100px;
+    width: 100px;
+    top: 15px;
+    margin-bottom: 25px;
+}
+
+.preview_btn {
+    float: right;
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+table {
+    background: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+td, th {
+    border-right: 1px solid #000000;
+}
+
+td:last-child, th:last-child {
+    border-right: 0;
+}
+
+td {
+    border-top: 1px solid #000000;
+}
+
+td {
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+}
+
+#forum_box {
+    height: 185px;
+    display: inline-block;
+}
+
+#game_box {
+    height: 185px;
+    display: flex;
+    justify-content: center;
+}
+
+#rules_link, #bag_btn {
+    background-color: white;
+    padding: 10px 15px 5px 15px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+#table_div {
+    margin: 0 auto;
+}
+
+#go_tourn_link {
+    width: 150px;
+    text-align: center;
+}
+
+#game_btns {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#game_table {
+    height: fit-content;
+    margin-left: 10px;
 }

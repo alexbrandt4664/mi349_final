@@ -7,16 +7,129 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div id="header">
+        <div id="logo">
+            <img id="hal" src="hal-9000.png" alt="hal"/>
+            <h1>Disc Golf Nation</h1>
+        </div>
+
+        <div id="info">
+            <div id="cart_group">
+                <img id="cart" src="shopping_cart-24px.svg" alt="cart">
+                <p id="cart_link">Cart</p>
+            </div>
+            <a id="create_link" href="create.html">Create Account</a>
+            <p id="login_link">Login</p>
+        </div>
+    </div>
     <nav>
-        <a>Home</a>
+        <a id="home_link">Home</a>
         <a>Store</a>
         <a>Forums</a>
         <a>Play</a>
         <a>Learn</a>
-        <a>Your Bag</a>
+        <a id="bag_link">Your Bag</a>
     </nav>
-    <div>
-        <h1 id="create_title">Create Account</h1>
+    <h2 id="tagline">The Premier Disc Golf Community</h2>
+    <div id="store_preview" class="preview">
+        <h3>Our Store</h3>
+        <div id="store_box" class="box">
+            <div id="store_flex">
+                <div class="item_box">
+                    <img class="store_image" src="destroyer.jpg" alt="destroyer"/>
+                    <h4>Innova Destroyer</h4>
+                    <p>Rating: 5.0 / 5.0</p>
+                    <p>Price: $12.99</p>
+                </div>
+                <div class="item_box">
+                    <img class="store_image" src="buzzz.jpg" alt="buzzz"/>
+                    <h4>Discraft Buzzz</h4>
+                    <p>Rating: 4.7 / 5.0</p>
+                    <p>Price: $13.99</p>
+                </div>
+                <div class="item_box">
+                    <img class="store_image" src="aviar.jpg" alt="aviar"/>
+                    <h4>Innova Aviar P&A</h4>
+                    <p>Rating: 4.8 / 5.0</p>
+                    <p>Price: $9.99</p>
+                </div>
+            </div>
+            <a id="go_store_link" class="preview_btn"><b>Go to Store</b></a>
+        </div>
+    </div>
+    <div id="forum_preview" class="preview">
+        <h3>Our Community</h3>
+        <div id="forum_box" class="box">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Poster</th>
+                    <th>Post Date</th>
+                    <th>Replies</th>
+                    <th>Views</th>
+                </tr>
+                <tr>
+                    <td>Why Ricky Wysocki is signing with GLD</td>
+                    <td>gldinsider46</td>
+                    <td>April 12<sup>th</sup>, 2020</td>
+                    <td>21</td>
+                    <td>412</td>
+                </tr>
+                <tr>
+                    <td>Best snacks for tournaments?</td>
+                    <td>imhungry96</td>
+                    <td>January 4<sup>th</sup>, 2018</td>
+                    <td>240</td>
+                    <td>1,234</td>
+                </tr>
+                <tr>
+                    <td>Most expensive cart on the market?</td>
+                    <td>cArTsHeLpMeWiN</td>
+                    <td>December 13<sup>th</sup>, 2019</td>
+                    <td>350</td>
+                    <td>874</td>
+                </tr>
+            </table>
+            <a id="go_forum_link" class="preview_btn"><b>Go to Forums</b></a>
+        </div>
+    </div>
+    <div id="game_preview" class="preview">
+        <h3>Our Game</h3>
+        <div id="game_box" class="box">
+            <div id="table_div">
+                <table id="game_table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Date(s)</th>
+                        <th>Location</th>
+                        <th>Signup Page</th>
+                    </tr>
+                    <tr>
+                        <td>Battle for Old Farm</td>
+                        <td>September 26<sup>th</sup>, 2020</td>
+                        <td>Old Farm Park, Kentwood, MI</td>
+                        <td>Sign Up</td>
+                    </tr>
+                    <tr>
+                        <td>River City Open</td>
+                        <td>July 24<sup>th</sup>-July 26<sup>th</sup>, 2020</td>
+                        <td>Riverside Park, Grand Rapids, MI</td>
+                        <td>Sign Up</td>
+                    </tr>
+                    <tr>
+                        <td>Las Vegas Challenge</td>
+                        <td>February 26<sup>th</sup>-February 29<sup>th</sup>, 2021</td>
+                        <td>Wildhorse Golf Club, Las Vegas, NV</td>
+                        <td>Sign Up</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="game_btns">
+                <a id="rules_link"><b>The Rules</b></a>
+                <a id="bag_btn"><b>Your Bag</b></a>
+                <a id="go_tourn_link" class="preview_btn"><b>Go to Tournaments</b></a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
